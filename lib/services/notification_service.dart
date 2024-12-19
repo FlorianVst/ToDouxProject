@@ -96,22 +96,6 @@ class NotificationService {
     );
   }
 
-  /// Notifications répétées toutes les 30 secondes pour les tests
-  Future<void> scheduleRepeatingTestNotification() async {
-    await AwesomeNotifications().createNotification(
-      content: NotificationContent(
-        id: 99999, // ID fixe pour cette notification
-        channelKey: 'motivation_channel',
-        title: "🔔 Notification de Test",
-        body: "Ceci est une notification répétée toutes les 30 secondes.",
-      ),
-      schedule: NotificationInterval(
-        interval: Duration(seconds: 30), // Répétition toutes les 30 secondes
-        timeZone: await AwesomeNotifications().getLocalTimeZoneIdentifier(),
-        repeats: true,
-      ),
-    );
-  }
 }
 
 
