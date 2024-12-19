@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "733020039258",
+    "project_id": "todouxproject",
+    "storage_bucket": "todouxproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733020039258:android:2e6621c6c42fdf25145063",
+        "android_client_info": {
+          "package_name": "com.example.todouxproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz0QmIYhUImNqST9R7v5WCA6Vx7ClKuwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
